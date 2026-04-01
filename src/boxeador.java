@@ -1,12 +1,12 @@
-public class Boxeador extends Atleta {
+class boxeador extends Atleta {
 
     private int golpesAcertados;
     private int peleasGanadas;
 
-    public Boxeador() {
+    public boxeador() {
     }
 
-    public Boxeador(String nombre, int edad, double horasEntrenamiento,
+    public boxeador(String nombre, int edad, double horasEntrenamiento,
                     int golpesAcertados, int peleasGanadas) {
         super(nombre, edad, horasEntrenamiento);
         this.golpesAcertados = golpesAcertados;
